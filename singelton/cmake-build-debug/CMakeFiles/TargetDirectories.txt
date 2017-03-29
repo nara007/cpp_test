@@ -1,0 +1,3 @@
+/Users/nara007/ClionProjects/singelton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nara007/ClionProjects/singelton/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nara007/ClionProjects/singelton/cmake-build-debug/CMakeFiles/singelton.dir
