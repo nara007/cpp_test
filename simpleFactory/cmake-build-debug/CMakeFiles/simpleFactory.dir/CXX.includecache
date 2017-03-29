@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nara007/ClionProjects/simpleFactory/./include/Huawei.h
+smartphone.h
+/Users/nara007/ClionProjects/simpleFactory/./include/smartphone.h
+
+/Users/nara007/ClionProjects/simpleFactory/./include/factory.h
+string
+-
+smartphone.h
+/Users/nara007/ClionProjects/simpleFactory/./include/smartphone.h
+
+/Users/nara007/ClionProjects/simpleFactory/./include/iphone.h
+string
+-
+smartphone.h
+/Users/nara007/ClionProjects/simpleFactory/./include/smartphone.h
+
+/Users/nara007/ClionProjects/simpleFactory/./include/smartphone.h
+string
+-
+
+/Users/nara007/ClionProjects/simpleFactory/main.cpp
+iostream
+-
+./include/smartphone.h
+/Users/nara007/ClionProjects/simpleFactory/./include/smartphone.h
+./include/Huawei.h
+/Users/nara007/ClionProjects/simpleFactory/./include/Huawei.h
+./include/iphone.h
+/Users/nara007/ClionProjects/simpleFactory/./include/iphone.h
+./include/factory.h
+/Users/nara007/ClionProjects/simpleFactory/./include/factory.h
+
