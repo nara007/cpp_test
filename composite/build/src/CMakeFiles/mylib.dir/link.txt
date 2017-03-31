@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmylib.a  CMakeFiles/mylib.dir/component.cpp.o CMakeFiles/mylib.dir/container.cpp.o CMakeFiles/mylib.dir/leaf.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmylib.a

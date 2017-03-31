@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nara007/program/c++/DP/composite/include/./component.h
+vector
+-
+
+/Users/nara007/program/c++/DP/composite/include/component.h
+vector
+-
+
+/Users/nara007/program/c++/DP/composite/include/container.h
+string
+-
+./component.h
+/Users/nara007/program/c++/DP/composite/include/./component.h
+
+/Users/nara007/program/c++/DP/composite/include/leaf.h
+string
+-
+component.h
+/Users/nara007/program/c++/DP/composite/include/component.h
+
+/Users/nara007/program/c++/DP/composite/src/component.cpp
+../include/component.h
+/Users/nara007/program/c++/DP/composite/include/component.h
+
+/Users/nara007/program/c++/DP/composite/src/container.cpp
+string
+-
+iostream
+-
+../include/container.h
+/Users/nara007/program/c++/DP/composite/include/container.h
+
+/Users/nara007/program/c++/DP/composite/src/leaf.cpp
+iostream
+-
+../include/leaf.h
+/Users/nara007/program/c++/DP/composite/include/leaf.h
+
